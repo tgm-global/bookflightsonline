@@ -12,7 +12,14 @@
     brand: 'bookflights.online',
     phoneDisplay: '[1-800-000-0000]',   // shown on screen, e.g. 1-800-000-0000
     phoneTel: '1-800-000-0000',                     // digits for the call link, e.g. 18000000000
-    nav: [['Flights', 'index.html#search'], ['Popular routes', 'index.html#routes']],
+    nav: [
+      ['Flights', 'index.html#search'],
+      ['Hotels', '#hotels'],
+      ['Cars', '#cars'],
+      ['Cruise', '#cruise'],
+      ['Tour Packages', '#tours'],
+      ['Popular routes', 'index.html#routes']
+    ],
     footerText: 'We may earn a commission when you book through our links, at no extra cost to you.',
     footerLinks: [ ['Terms & privacy', '#']]
   };
