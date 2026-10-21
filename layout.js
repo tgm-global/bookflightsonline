@@ -10,11 +10,11 @@
 (function () {
   var CONFIG = {
     brand: 'bookflights.online',
-    phoneDisplay: '[PHONE NUMBER]',   // shown on screen, e.g. 1-800-000-0000
+    phoneDisplay: '[1-800-000-0000]',   // shown on screen, e.g. 1-800-000-0000
     phoneTel: '',                     // digits for the call link, e.g. 18000000000
     nav: [['Flights', 'index.html#search'], ['Popular routes', 'index.html#routes']],
     footerText: 'We may earn a commission when you book through our links, at no extra cost to you.',
-    footerLinks: [['Affiliate disclosure', '#'], ['Terms & privacy', '#']]
+     ['Terms & privacy', '#']]
   };
 
   var s = document.currentScript;
