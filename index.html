@@ -7,19 +7,10 @@
 <meta name="description" content="Search flights between 100 US cities and continue on our booking partner's site.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+<script src="assets/layout.js" defer></script>
 <style>
-*{box-sizing:border-box}
-body{margin:0;font-family:'Plus Jakarta Sans',system-ui,sans-serif;color:#0B1B33;background:#F3F6FB}
-a{color:#1458D6}
 button{font-family:inherit;cursor:pointer}
-.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
-header{background:#0B1B33}
-.bar{min-height:72px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px}
-.logo{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-weight:800;font-size:22px;letter-spacing:-.3px}
-.logo i{width:36px;height:36px;border-radius:10px;background:#FFB020;color:#0B1B33;display:flex;align-items:center;justify-content:center}
-nav{display:flex;flex-wrap:wrap;gap:8px 28px}
-nav a{color:#C9D6EE;text-decoration:none;font-weight:600;font-size:15px;padding:12px 0}
-nav a:first-child{color:#fff}
 .hero{background:#0B1B33;padding:48px 0 130px}
 .eyebrow{margin:0 0 14px;color:#FFB020;font-weight:700;font-size:14px;letter-spacing:1.2px;text-transform:uppercase}
 h1{margin:0;color:#fff;font-size:clamp(34px,5vw,60px);line-height:1.08;font-weight:800;letter-spacing:-1.5px;max-width:760px}
@@ -53,24 +44,9 @@ h2{margin:0 0 8px;font-size:30px;font-weight:800;letter-spacing:-.7px}
 .why h3{margin:0 0 8px;font-size:19px;font-weight:800}
 .why p{margin:0;color:#51607A;font-size:15px;line-height:1.6}
 .ico{width:44px;height:44px;border-radius:12px;background:#E5EEFF;color:#1458D6;display:flex;align-items:center;justify-content:center;margin-bottom:16px}
-footer{background:#0B1B33;margin-top:80px;padding:48px 0 36px}
-.foot{display:flex;flex-wrap:wrap;gap:32px 64px;justify-content:space-between}
-.foot p{margin:12px 0 0;color:#C9D6EE;font-size:15px;line-height:1.6;max-width:340px}
-.cols{display:flex;flex-wrap:wrap;gap:32px 56px}
-.col{display:flex;flex-direction:column;gap:6px}
-.col b{color:#fff;font-size:15px;margin-bottom:6px}
-.col a{color:#C9D6EE;text-decoration:none;font-size:15px;padding:6px 0}
-a:focus-visible,button:focus-visible{outline:3px solid #FFB020;outline-offset:2px}
 </style>
 </head>
 <body>
-
-<header>
-<div class="wrap bar">
-<a class="logo" href="#top"><i><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l18-7-7 18-2.5-7.5z"/></svg></i>bookflights.online</a>
-<nav aria-label="Main"><a href="#search">Flights</a><a href="#routes">Popular routes</a></nav>
-</div>
-</header>
 
 <section class="hero" id="top">
 <div class="wrap">
@@ -120,15 +96,6 @@ a:focus-visible,button:focus-visible{outline:3px solid #FFB020;outline-offset:2p
 </div>
 </section>
 
-<footer>
-<div class="wrap foot">
-<div><b style="color:#fff;font-weight:800;font-size:22px">bookflights.online</b><p>Find flights between 100 US cities. Bookings are completed on our partners' sites. We may earn a commission when you book through our links, at no extra cost to you.</p></div>
-<div class="cols">
-<div class="col"><b>Company</b><a href="#">About</a><a href="#">Contact</a></div>
-<div class="col"><b>Support</b><a href="#">Help centre</a><a href="#">Affiliate disclosure</a><a href="#">Terms &amp; privacy</a></div>
-</div>
-</div>
-</footer>
 
 <script>
 (function () {
